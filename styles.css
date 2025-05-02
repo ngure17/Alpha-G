@@ -213,6 +213,98 @@ form ul{
     padding-bottom: 15px;
    
 }
+
+/* Section Styles */
+.about-section, .products-section, .contact-section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .about-section h2,
+  .products-section h2,
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2b4c3f;
+  }
+  
+  /* Products */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .product-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: max-content;
+    height: max-content;
+    object-fit: contain;
+  }
+  
+  .product-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Contact Section */
+  .contact-section ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+  }
+  
+  .contact-section a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    background-color: #2b4c3f;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1f372d;
+  }
+  
+
 .footer-information-mnu {
 	height: 600;
 	background-color: #0f298b;

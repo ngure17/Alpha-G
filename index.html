@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dairy Farm</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +14,13 @@
     <!--Cover-page and logo Section-->
     <div class="container">
             <nav>
-                <a href="#"><img src="./assets/images/DairyFarm_logo.svg.png"></a>
+                <a href="#"><img src="./images/Alpha-G.png"></a>
                 <div class="nav-links">
                         <ul>
                             <li><a href="">Home</a></li>
-                            <li><a href="">ABOUT US</a></li>
-                            <li><a href="">Produts</a></li>
-                            <li><a href="">EMPLOYERS AND PARTNERS</a></li>
-                            <li><a href="">EVENTS</a></li>
-                            <li><a href="">BLOG</a></li>
-                            <li><a href="">CONTACT</a></li>
+                            <li><a href="#About_us">ABOUT US</a></li>
+                            <li><a href="#products">Produts</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </ul>
 
                 </div>
@@ -34,7 +31,7 @@
                 <div class="cover-page">
 
                     <div class=" left">
-                        <h1> Kenya's Best Dairy Farm</h1>
+                        <h1> 018's Leading Dairy Farm</h1>
                         <p> We value the production of safe,and quality milk <br> from healthy animals under generally acceotable conditions. <br>
                             We appliy the worlwide approve Good Agricultural Practice (GAP)</p>    
                         <a href="" class="page-btn"> SEE OUR PRODUCTS</a>
@@ -94,7 +91,7 @@
                <!-- Montly income section  -->
                 <div class="montly-come">
                     <div class="montly-form-section">
-                        <h3>Fill in total production to <br>Calculate montly-come</h3>
+                        <h3>Fill in total production to <br>Calculate monthly-income</h3>
 
                         <form>
                         Enter total-production: <input type="number" name="total-output" /><br />
@@ -119,6 +116,51 @@
                         </div>
                 </div>
           </div>
+
+            <!-- ABOUT US Section -->
+        <section id="About_us" class="about-section">
+        <h2>About Us</h2>
+        <p>
+        At Dairy Farm, we pride ourselves on delivering fresh, high-quality milk from well-cared-for cows.
+        Our commitment to Good Agricultural Practices (GAP) ensures that every drop of milk is nutritious and safe.
+        We are passionate about sustainable farming and community development through modern dairy practices.
+        </p>
+        </section>
+    
+        <!-- PRODUCTS Section -->
+        <section id="products" class="products-section">
+            <h2>Our Products</h2>
+            <div class="product-list">
+            <div class="product-card">
+                <img src="./images/images.jpeg" alt="Fresh Milk">
+                <h3>Fresh Milk</h3>
+                <p>Pure, creamy, and fresh from the farm.</p>
+            </div>
+            <div class="product-card">
+                <img src="./images/images (1).jpeg" alt="Yogurt">
+                <h3>Yogurt</h3>
+                <p>Rich in probiotics and perfect for your health.</p>
+            </div>
+            <div class="product-card">
+                <img src="./images/download.jpeg" alt="Cheese">
+                <h3>Cheese</h3>
+                <p>Natural, aged, and full of flavor.</p>
+            </div>
+            </div>
+        </section>
+        
+        <!-- CONTACT Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach us via:</p>
+            <ul>
+            <li>Email: <a href="mailto:info@dairyfarm.co.ke">info@Alpha-G.co.ke</a></li>
+            <li>Phone: +254 712 345 678</li>
+            <li>Location: 018, Nyandarua County, Kenya</li>
+            </ul>
+        </section>
+    
+
           <footer>
             <div class="footer-information-mnu">
                 <div class="menu-colums-options">
@@ -133,32 +175,25 @@
                     <h2>Products</h2>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Partnership</a></li>
                         <li><a href="">visit or farm</a></li>
-                        <li><a href="">Events</a></li>
                     </ul>
                 </div>
                 <div class="menu-colums-options">
                     <h2>About</h2>
                     <ul>
-                        <li><a href="">Our Company</a></li>
-                        <li><a href="">location</a></li>
-                        <li><a href="">Investors Relations</a></li>
-                        <li><a href="">Social Impact</a></li>
+                        <li><a href="#About_us">Our Company</a></li>
+                        <li><a href="#About_us">location</a></li>
                     </ul>
                 </div>
                 <div class="menu-colums-options">
                     <h2>Resources</h2>
                     <ul>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Give feedback</a></li>
-                        <li><a href="">Sent us a Message</a></li>
-                        <li><a href="">Privacy</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
     </div>
-              <script src="./assets/JS/index.js"></script>
+              <script src="./index.js"></script>
  </body>
 </html>
