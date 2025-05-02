@@ -44,6 +44,7 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
 .cover-background{
     width: 100%;
     background-image: url("./images/leon-ephraim-AxoNnnH1Y98-unsplash.jpg");
